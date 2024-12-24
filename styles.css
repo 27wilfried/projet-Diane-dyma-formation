@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-custom {
+  @apply bg-cover bg-center;
+  background-image: url("./src/assets/images/bg-image.jpg");
+}
+
+.product1 {
+  @apply bg-cover bg-center;
+  background-image: url("./src/assets/images/product1.jpg");
+}
+
+.image-section {
+  @apply bg-cover bg-center;
+  background-image: url("./src/assets/images/image.jpg");
+}
+
+@layer base {
+  html {
+    font-family: "Montserrat", sans-serif;
+  }
+}
